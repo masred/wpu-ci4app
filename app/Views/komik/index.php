@@ -21,7 +21,7 @@
                             <th scope="row"><?= $i++; ?></th>
                             <td><img src="/img/<?= $k['sampul']; ?>" class="sampul" alt=""></td>
                             <td><?= $k['judul']; ?></td>
-                            <td><a href="" class="btn btn-success">Detail</a></td>
+                            <td><a href="/komik/<?= $k['slug']; ?>" class="btn btn-success">Detail</a></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
